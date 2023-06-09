@@ -37,7 +37,7 @@ key feature bulletin points here
 <!-- give a introduction of your project -->
 ## Details
 
- We have built a multimodal multitask model for DR data, aiming to solve all tasks in this field with one model, such as report generation, disease detection, disease question answering, and even segmentation. Without any fine-tuning, our model has achieved SOTA results in report generation, and also achieved close to SOTA results in tasks such as disease detection and question answering.
+ We have built a multimodal multitask model for DR data, aiming to solve all tasks in this field with one model, such as report generation, disease detection, disease question answering, and even segmentation. Without any fine-tuning, our model has achieved satisfactory results in report generation, disease detection and question answering.
 
 <!-- Insert a pipeline of your algorithm here if got one -->
 <div align="center">

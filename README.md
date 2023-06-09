@@ -1,7 +1,7 @@
 # OmniFM-DR
 
 ## News
-
+We now provide a pretrained MiniGPT-4 aligned with Vicuna-7B! The demo GPU memory consumption now can be as low as 12GB.
 
 ## Online Demo
 
@@ -40,7 +40,7 @@ key feature bulletin points here
 
 <!-- Insert a pipeline of your algorithm here if got one -->
 <div align="center">
-    <a href="https://"><img width="1000px" height="auto" src="https://github.com/openmedlab/sampleProject/blob/main/diagram_sample.png"></a>
+    <a href="https://"><img width="1000px" height="auto" src="https://github.com/MedHK23/OmniFM-DR/blob/main/diagram.png"></a>
 </div>
 
 More intro text here.

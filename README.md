@@ -1,9 +1,10 @@
 # OmniFM-DR
 
 ## News
-We now provide a pretrained MiniGPT-4 aligned with Vicuna-7B! The demo GPU memory consumption now can be as low as 12GB.
+We now provide a pretrained OmniFM-DR on June 9, 2023! 
 
 ## Online Demo
+Click the image to have a try with OmniFM-DR around the chest DR images
 
 <!-- Insert a pipeline of your algorithm here if got one -->
 <div align="center">

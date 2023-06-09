@@ -1,13 +1,13 @@
 # OmniFM-DR
 
-News
+## News
 
 
-Online Demo
+## Online Demo
 
 <!-- Insert a pipeline of your algorithm here if got one -->
 <div align="center">
-    <a href="https://"><img width="1000px" height="auto" src="https://github.com/MedHK23/OmniFM-DR/blob/main/demo1.JPG"></a>
+    <a href="https://"><img width="600px" height="auto" src="https://github.com/MedHK23/OmniFM-DR/blob/main/demo1.JPG"></a>
 </div>
 
 

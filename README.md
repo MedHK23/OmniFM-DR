@@ -7,7 +7,7 @@ We now provide a pretrained MiniGPT-4 aligned with Vicuna-7B! The demo GPU memor
 
 <!-- Insert a pipeline of your algorithm here if got one -->
 <div align="center">
-    <a href="https://"><img width="600px" height="auto" src="https://github.com/MedHK23/OmniFM-DR/blob/main/demo1.JPG"></a>
+    <a href="https://bbd003bda9d5acf9be.gradio.live/"><img width="600px" height="auto" src="https://github.com/MedHK23/OmniFM-DR/blob/main/demo1.JPG"></a>
 </div>
 
 
@@ -40,7 +40,7 @@ key feature bulletin points here
 
 <!-- Insert a pipeline of your algorithm here if got one -->
 <div align="center">
-    <a href="https://"><img width="1000px" height="auto" src="https://github.com/MedHK23/OmniFM-DR/blob/main/diagram.png"></a>
+    <a href="https://bbd003bda9d5acf9be.gradio.live/"><img width="1000px" height="auto" src="https://github.com/MedHK23/OmniFM-DR/blob/main/diagram.png"></a>
 </div>
 
 More intro text here.

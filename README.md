@@ -17,7 +17,7 @@ Click the image to have a try with OmniFM-DR around the chest DR images
 This repository provides the official implementation of OmniFM-DR
 
 key feature bulletin points here
-- First foundation model for chest DR image analysis
+- First foundation model for multi-task analysis of chest DR image
 - The largest full labeled chest DR dataset
 - Supoort 5 tpyes of downstream tasks
     - Report Generation
@@ -41,7 +41,7 @@ key feature bulletin points here
 
 <!-- Insert a pipeline of your algorithm here if got one -->
 <div align="center">
-    <a href="https://bbd003bda9d5acf9be.gradio.live/"><img width="1000px" height="auto" src="https://github.com/MedHK23/OmniFM-DR/blob/main/diagram.png"></a>
+    <a href="https://847656a535c7a29317.gradio.live/"><img width="1000px" height="auto" src="https://github.com/MedHK23/OmniFM-DR/blob/main/diagram.png"></a>
 </div>
 
 More intro text here.

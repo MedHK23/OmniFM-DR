@@ -80,32 +80,6 @@ git clone https://github.com/MedHK23/OmniFM-DR.git
 pip install -r requirements.txt
 ```
 
-**Download Model**
-
-
-**Preprocess**
-```bash
-python DDD
-```
-
-
-**Training**
-```bash
-python DDD
-```
-
-
-**Validation**
-```bash
-python DDD
-```
-
-
-**Testing**
-```bash
-python DDD
-```
-
 ## 🙋‍♀️ Feedback and Contact
 
 - Email

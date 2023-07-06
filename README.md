@@ -8,7 +8,7 @@ Click the image to have a try with OmniFM-DR around the chest DR images
 
 <!-- Insert a pipeline of your algorithm here if got one -->
 <div align="center">
-    <a href="https://bbd003bda9d5acf9be.gradio.live/"><img width="600px" height="auto" src="https://github.com/MedHK23/OmniFM-DR/blob/main/demo.gif"></a>
+    <a href="https://medhk23.github.io/OmniFM-DR-demo/"><img width="600px" height="auto" src="https://github.com/MedHK23/OmniFM-DR/blob/main/demo.gif"></a>
 </div>
 
 

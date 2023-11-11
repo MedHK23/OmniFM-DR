@@ -29,8 +29,7 @@ key feature bulletin points here
 ## Links
 
 - [Paper](https://arxiv.org/abs/2311.01092)
-- [Model](https://)
-- [Code](https://)
+- [Model](https://huggingface.co/MedHK23/OmniFM-DR)
 - [Dataset](https://huggingface.co/datasets/MedHK23/OmniFM-Dr)
 <!-- [Code] may link to your project at your institute>
 

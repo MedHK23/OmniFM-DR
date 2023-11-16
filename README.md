@@ -8,7 +8,7 @@ Click the image to have a try with OmniFM-DR around the chest DR images
 
 <!-- Insert a pipeline of your algorithm here if got one -->
 <div align="center">
-    <a href="https://b453ab105ece205f04.gradio.live"><img width="600px" height="auto" src="https://github.com/MedHK23/OmniFM-DR/blob/main/demo.gif"></a>
+    <a href="https://479d81e5a2e14b9538.gradio.live"><img width="600px" height="auto" src="https://github.com/MedHK23/OmniFM-DR/blob/main/resources/demo.gif"></a>
 </div>
 
 
@@ -17,21 +17,19 @@ Click the image to have a try with OmniFM-DR around the chest DR images
 This repository provides the official implementation of OmniFM-DR
 
 key feature bulletin points here
-- First foundation model for multi-task analysis of chest DR image
+- First multi-modality model for multi-task analysis of chest DR image
 - The largest full labeled chest DR dataset
-- Supoort 5 tpyes of downstream tasks
-    - Report Generation
+- Supoort 4 tpyes of downstream tasks
+    - Classification
     - Disease Localization
     - Segmentation
-    - Classification
-    - Visual Question Answering
+    - Report Generation
 
 ## Links
 
 - [Paper](https://arxiv.org/abs/2311.01092)
 - [Model](https://huggingface.co/MedHK23/OmniFM-DR)
 - [Dataset](https://huggingface.co/datasets/MedHK23/OmniFM-Dr)
-<!-- [Code] may link to your project at your institute>
 
 
 <!-- give a introduction of your project -->
@@ -41,10 +39,8 @@ key feature bulletin points here
 
 <!-- Insert a pipeline of your algorithm here if got one -->
 <div align="center">
-    <a href="https://847656a535c7a29317.gradio.live/"><img width="1000px" height="auto" src="https://github.com/MedHK23/OmniFM-DR/blob/main/diagram.png"></a>
+    <a href="https://847656a535c7a29317.gradio.live/"><img width="1000px" height="auto" src="https://github.com/MedHK23/OmniFM-DR/blob/main/resources/diagram.png"></a>
 </div>
-
-More intro text here.
 
 
 ## Dataset Links
@@ -80,52 +76,42 @@ git clone https://github.com/MedHK23/OmniFM-DR.git
 pip install -r requirements.txt
 ```
 
-**Download Model**
-
-
-**Preprocess**
-```bash
-python DDD
-```
-
 
 **Training**
 ```bash
-python DDD
-```
-
-
-**Validation**
-```bash
-python DDD
+### before training, please download the pretrained models and datasets and place them in their respective folders.
+bash ./run_scripts/multi_tasks/train.sh
 ```
 
 
 **Testing**
 ```bash
-python DDD
+from demo_base import init_task, ask_answer
+from PIL import Image
+
+print('Initializing Chat')
+init_task()
+print('Initialization Finished')
+
+instruction = 'describe this image'
+image = Image.open('test.png').convert('RGB')
+report = ask_answer(image, instruction)
 ```
-
-## 🙋‍♀️ Feedback and Contact
-
-- Email
-- Webpage 
-- Social media
 
 
 ## 🛡️ License
 
-This project is under the CC-BY-NC 4.0 license. See [LICENSE](LICENSE) for details.
+This project is under the Apache License. See [LICENSE](LICENSE.txt) for details.
 
 ## 🙏 Acknowledgement
 
-A lot of code is modified from [monai](https://github.com/Project-MONAI/MONAI).
+A lot of code is modified from [OFA](https://github.com/OFA-Sys/OFA).
 
 ## 📝 Citation
 
 If you find this repository useful, please consider citing this paper:
 ```
-@article{John2023,
+@article{Xu2023,
   title={paper},
   author={John},
   journal={arXiv preprint arXiv:},

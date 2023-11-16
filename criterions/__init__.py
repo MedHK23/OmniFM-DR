@@ -1,0 +1,6 @@
+from .scst_loss import ScstRewardCriterion
+from .label_smoothed_cross_entropy import AdjustLabelSmoothedCrossEntropyCriterion
+from .clip_scst_loss import ClipScstRewardCriterion
+from .label_smoothed_encouraging_loss import AdjustLabelSmoothedEncouragingLossCriterion
+from .speech_pretrain_loss import SpeechPretrainLoss
+from .label_smoothed_cross_entropy_with_cls import AdjustLabelSmoothedCrossEntropyCriterionWithClassification

@@ -111,7 +111,7 @@ A lot of code is modified from [OFA](https://github.com/OFA-Sys/OFA).
 
 If you find this repository useful, please consider citing this paper:
 ```
-{xu2023learning,
+@misc{xu2023learning,
       title={Learning A Multi-Task Transformer Via Unified And Customized Instruction Tuning For Chest Radiograph Interpretation}, 
       author={Lijian Xu and Ziyu Ni and Xinglong Liu and Xiaosong Wang and Hongsheng Li and Shaoting Zhang},
       year={2023},

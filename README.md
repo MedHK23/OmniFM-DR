@@ -42,6 +42,15 @@ key feature bulletin points here
     <a href="https://847656a535c7a29317.gradio.live/"><img width="1000px" height="auto" src="https://github.com/MedHK23/OmniFM-DR/blob/main/resources/diagram.png"></a>
 </div>
 
+## Instructions
+| Instruction   | Task    | 
+| ------ | ------ |
+| What disease does this image have?   |  Disease entity classification    |
+|   What is the level of {} ?  | Disease severity classification    |
+|   Where is {} ?  | Disease location classification    |
+|   Give the accurate bounding box of {}.  | Disease localization    |
+|   Please segment the {} from the given image.  | Segmentation    |
+|   Describe the image.  | Report generation    |
 
 ## Dataset Links
 

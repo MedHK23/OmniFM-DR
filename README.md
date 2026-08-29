@@ -3,6 +3,8 @@
 ## News
 We now provide a pretrained  IMT-CXR on June 9, 2023! 
 
+We paer has been published on August 14, 2026! 
+
 ## Online Demo
 Click the image to have a try with OmniFM-DR around the chest X-ray images
 
@@ -27,7 +29,7 @@ key feature bulletin points here
 
 ## Links
 
-- [Paper](https://arxiv.org/abs/2311.01092)
+- [Paper](https://www.cell.com/med/fulltext/S2666-6340(26)00226-6)
 - [Model](https://huggingface.co/MedHK23/IMT-CXR)
 - [Dataset](https://huggingface.co/datasets/MedHK23/IMT-CXR)
 
@@ -39,7 +41,7 @@ key feature bulletin points here
 
 <!-- Insert a pipeline of your algorithm here if got one -->
 <div align="center">
-    <a href="https://847656a535c7a29317.gradio.live/"><img width="1000px" height="auto" src="https://github.com/MedHK23/OmniFM-DR/blob/main/resources/diagram.png"></a>
+    <a href="https://847656a535c7a29317.gradio.live/"><img width="1000px" height="auto" src="https://medhk23.github.io/xulijian/images/med2026.JPG"></a>
 </div>
 
 ## Instructions
@@ -120,13 +122,12 @@ A lot of code is modified from [OFA](https://github.com/OFA-Sys/OFA).
 
 If you find this repository useful, please consider citing this paper:
 ```
-@misc{xu2023learning,
-      title={Learning A Multi-Task Transformer Via Unified And Customized Instruction Tuning For Chest Radiograph Interpretation}, 
-      author={Lijian Xu and Ziyu Ni and Xinglong Liu and Xiaosong Wang and Hongsheng Li and Shaoting Zhang},
-      year={2023},
-      eprint={2311.01092},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+@article{xu2026unified,
+  title={A unified multi-task framework enables interpretable chest radiograph analysis},
+  author={Xu, Lijian and Ni, Ziyu and Liu, Xinglong and Wang, Xiaosong and Li, Hongsheng and Zhang, Shaoting},
+  journal={Med},
+  year={2026},
+  publisher={Elsevier}
 }
 ```
 
